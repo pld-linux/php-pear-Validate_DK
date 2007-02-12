@@ -5,7 +5,7 @@
 %define		_pearname	Validate_DK
 
 Summary:	%{_pearname} - Validation class for Denmark
-Summary(pl.UTF-8):   %{_pearname} - Klasa sprawdzająca poprawność dla Danii
+Summary(pl.UTF-8):	%{_pearname} - Klasa sprawdzająca poprawność dla Danii
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
 Release:	1
@@ -44,7 +44,7 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
