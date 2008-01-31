@@ -8,7 +8,7 @@ Summary:	%{_pearname} - Validation class for Denmark
 Summary(pl.UTF-8):	%{_pearname} - Klasa sprawdzająca poprawność dla Danii
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
-Release:	1
+Release:	2
 Epoch:		0
 License:	New BSD
 Group:		Development/Languages/PHP
