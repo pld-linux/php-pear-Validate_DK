@@ -7,13 +7,12 @@
 Summary:	%{_pearname} - Validation class for Denmark
 Summary(pl.UTF-8):	%{_pearname} - Klasa sprawdzająca poprawność dla Danii
 Name:		php-pear-%{_pearname}
-Version:	0.1.1
-Release:	2
-Epoch:		0
+Version:	0.1.2
+Release:	1
 License:	New BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	65a9d67ee6e6505b6bd0a7ef1458a7d7
+# Source0-md5:	8eb2d0229bb5e0c4c797779cc567b408
 URL:		http://pear.php.net/package/Validate_DK/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -46,7 +45,7 @@ Ta klasa ma w PEAR status: %{_status}.
 Summary:	Tests for PEAR::%{_pearname}
 Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development
-Requires:	%{name} = %{epoch}:%{version}-%{release}
+Requires:	%{name} = %{version}-%{release}
 AutoReq:	no
 
 %description tests
@@ -72,6 +71,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc docs/%{_pearname}/LICENSE
 %{php_pear_dir}/.registry/*.reg
 %{php_pear_dir}/Validate/DK.php
+%{php_pear_dir}/data/Validate_DK
 
 %files tests
 %defattr(644,root,root,755)
