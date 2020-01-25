@@ -1,6 +1,5 @@
 %define		status		alpha
 %define		pearname	Validate_DK
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Validation class for Denmark
 Summary(pl.UTF-8):	%{pearname} - Klasa sprawdzająca poprawność dla Danii
 Name:		php-pear-%{pearname}
